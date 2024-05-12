@@ -1,6 +1,8 @@
-# based-array
+![basedArray 1](https://github.com/lbennett-stacki/based-array/assets/5678671/fe40340b-1934-4a29-ad57-8f81d6c73680)
 
 A correct and based array implementation. 1-based indexing. obviously.
+
+Inspired by [Why you're wrong about 0-based indexing](https://www.youtube.com/watch?v=0uQ3bkiW5SE) by [@tjdevries](https://github.com/tjdevries)
 
 ## Install
 
