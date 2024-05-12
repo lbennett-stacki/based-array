@@ -60,7 +60,9 @@ console.log(array[0]);
 ## Testing
 
 Every based array method is tested against its vanilla counterpart
-in a thrilling batte over in [tests/vanilla-vs.spec](./tests/vanilla-vs.spec.ts)
+in a thrilling batte over in [tests/vanilla-vs.spec](./tests/vanilla-vs.spec.ts).
+
+The example above is tested in [tests/readme-example.spec](./tests/readme-example.spec.ts).
 
 ### Performance
 
