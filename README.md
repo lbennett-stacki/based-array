@@ -16,12 +16,12 @@ pnpm add based-array
 import { BasedArray } from "based-array";
 
 const funkyReduce = (arr: number[]) => {
-  return array.reduce((accum, item, index) => {
+  return arr.reduce((accum, item, index) => {
     return accum + item * index;
   }, 0);
 };
 
-let array = new BasedArray(5).fill(1);
+let array = new BasedArray<number>(5).fill(1);
 console.log(array[1]);
 // 1
 console.log(funkyReduce(array));
