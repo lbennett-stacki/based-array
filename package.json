@@ -4,6 +4,7 @@
   "description": "A correct and based array implementation. 1-based indexing. obviously.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "github:lbennett-stacki/based-array",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
