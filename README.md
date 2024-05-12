@@ -80,3 +80,5 @@ Based: 0.548ms
 
 Finished performance test.
 ```
+
+_No but honestly you shouldn't trust these perf test results, it makes no sense for it to be anything but slower than vanilla Array, maybe will get better tests to demonstrate when I'm bored again._
