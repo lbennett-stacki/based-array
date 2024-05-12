@@ -2,6 +2,8 @@
 
 A correct and based array implementation. 1-based indexing. obviously.
 
+Inspired by [Why you're wrong about 0-based indexing](https://www.youtube.com/watch?v=0uQ3bkiW5SE) by [@tjdevries](https://github.com/tjdevries)
+
 ## Install
 
 ```bash
