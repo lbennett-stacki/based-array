@@ -64,34 +64,6 @@ export class CorrectArray<T> implements Array<T> {
 
   constructor(size?: number) {
     this[State] = new Array(size);
-
-    return new Proxy(this, {
-      get(target, prop) {
-        if (prop === Symbol.iterator) {
-          return () => target[State][Symbol.iterator]();
-        }
-
-        if (typeof prop !== "string") {
-          return Reflect.get(target, prop);
-        }
-
-        const int = parseInt(prop);
-        if (isNaN(int)) {
-          return Reflect.get(target, prop);
-        }
-
-        if (int === 0) {
-          const error = new CountingFromZeroError();
-          if (CorrectArray[Strict]) {
-            throw error;
-          } else {
-            console.error(error);
-          }
-        }
-
-        return target[State][CorrectArray.incorrect(int)];
-      },
-    });
   }
 
   get length() {

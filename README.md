@@ -64,18 +64,17 @@ in a thrilling batte over in [tests/vanilla-vs.spec](./tests/vanilla-vs.spec.ts)
 
 ### Performance
 
-You can run a performance test to see how much slower it is
-but you probably don't want to.
+You can run a simple performance test.
 
 ```bash
 ➜  based-array git:(main) ✗ npm run perf
 
 Starting performance test with 10,000 items.
 
-Vanilla: 0.778ms
-Based: 2.304ms
-Vanilla: 0.424ms
-Based: 2.04ms
+Vanilla: 0.809ms
+Based: 0.657ms
+Vanilla: 0.524ms
+Based: 0.548ms
 
 Finished performance test.
 ```
