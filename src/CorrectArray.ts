@@ -293,7 +293,7 @@ export class CorrectArray<T> implements Array<T> {
 
   *keys() {
     for (let index = 0; index < this.length; index++) {
-      yield index;
+      yield CorrectArray.correct(index);
     }
   }
 

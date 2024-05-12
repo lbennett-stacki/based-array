@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-    "perf": "ts-node src/perf.ts",
+    "perf": "ts-node tests/perf.ts",
     "test": "vitest",
     "prepublish": "npm run build"
   },

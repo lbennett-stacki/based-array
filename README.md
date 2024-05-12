@@ -54,3 +54,26 @@ console.log(array[1]);
 console.log(array[0]);
 // Throws error: CountingFromZeroError
 ```
+
+## Testing
+
+Every based array method is tested against its vanilla counterpart
+in a thrilling batte over in [tests/vanilla-vs.spec](./tests/vanilla-vs.spec.ts)
+
+### Performance
+
+You can run a performance test to see how much slower it is
+but you probably don't want to.
+
+```bash
+➜  based-array git:(main) ✗ npm run perf
+
+Starting performance test with 10,000 items.
+
+Vanilla: 0.778ms
+Based: 2.304ms
+Vanilla: 0.424ms
+Based: 2.04ms
+
+Finished performance test.
+```
